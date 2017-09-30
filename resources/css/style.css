@@ -1,49 +1,102 @@
+/* Victor Alejandro Baez  */
 /* Universal Styles */
 
 body {
-  }
-
-/* Header */
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color:seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+/*************************************/
+/****							 *****/
+/****					         *****/
+/****						     *****/
+/****	        Header  		 *****/
+/****							 *****/
+/****							 *****/
+/****							 *****/
+/****							 *****/
+/*************************************/
 
 header {
-
+  display: flex;
+  align-items:center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
 }
 .logo{
-
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
 }
 .logo img{
-
-}
-header h1 {
-
-
+  height: 50px;
+  margin-right: 10px;
 }
 header nav {
-
+  padding-right: 40px;
 }
 nav span {
-
+  display: inline-block;
+  padding: 20px 10px;
 }
 nav a {
-
+  color: seashell;
 }
+/*************************************/
+/****		  			   	     *****/
+/****			                 *****/
+/****				   			 *****/
+/****		Main Container		 *****/
+/****							 *****/
+/****							 *****/
+/****							 *****/
+/****							 *****/
+/*************************************/
 
-
-
-
-/* Main Container */
 
 .content {
-
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  display:flex;
 }
-/* Footer */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************/
+/****						   	   *****/
+/****			                   *****/
+/****				   			   *****/
+/****			Footer			   *****/
+/****							   *****/
+/****							   *****/
+/****							   *****/
+/****							   *****/
+/***************************************/
 footer {
-
-}
-footer .title{
-
-}
-footer nav {
-
+  text-align: left;
+  padding-left: 20px;
 }
